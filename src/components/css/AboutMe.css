@@ -95,3 +95,9 @@
         width: 55vw;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .AboutMeTitle {
+        font-size: 1em;
+    }
+}
