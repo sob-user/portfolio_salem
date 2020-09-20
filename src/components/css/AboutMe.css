@@ -49,3 +49,49 @@
         min-height: 64vh;
     }
 }
+
+@media screen and (max-width: 720px) {
+    .AboutMeTitle {
+        width: 80%;
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .AboutMeTitle {
+        font-size: 1.5em;
+    }
+
+    .AboutMePitch {
+        font-size: 1.1em;
+    }
+
+    .AboutMeAvatar svg{
+        height: 35vw;
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .AboutMeBox {
+        justify-content: space-around;
+    }
+
+    .AboutMeTitle {
+        width: 85%;
+        font-size: 1.2em;
+    }
+
+    .AboutMePitch {
+        font-size: 1em;
+    }
+
+    .AboutMeDrawing {
+        display: none;
+    }
+
+    .AboutMeAvatar svg{
+        height: 55vw;
+        width: 55vw;
+    }
+}

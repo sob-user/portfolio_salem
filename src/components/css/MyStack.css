@@ -9,7 +9,7 @@
 
 .MyStackBoxContent {
     width: 90%;
-    height: 600px;
+    min-height: 600px;
     display: flex;
     justify-content: center;
     border-radius: 40px;
@@ -166,5 +166,120 @@
 @media screen and (max-width: 1024px) {
     .MyStackBox {
         min-height: 45vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .MyStackBoxContent {
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: none;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background: none;
+        border: none;
+        min-height: 1740px;
+    }
+
+    .MyStackFront {
+        height: 560px;
+        width: 80%;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border: 1px solid #5e5e5e38;
+        background: white;
+        box-shadow: -4px -2px 37px 5px #5e5e5e;
+        border-radius: 40px;
+    }
+    
+    .MyStackBack {
+        height: 560px;
+        width: 80%;
+        border: 1px solid #5e5e5e38;
+        background: white;
+        box-shadow: -4px -2px 37px 5px #5e5e5e;
+        border-radius: 40px;
+    }
+    
+    .MyStackDesign {
+        height: 560px;
+        width: 80%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border: 1px solid #5e5e5e38;
+        background: white;
+        box-shadow: -4px -2px 37px 5px #5e5e5e;
+        border-radius: 40px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .MyStackBoxContent {
+        min-height: 1500px;
+    }
+
+    .MyStackBox {
+        top: -60px;
+    }
+
+    .MyStackFront {
+        height: 480px;
+        width: 90%;
+        justify-content: space-around;
+    }
+
+    .MyStackTitle {
+        height: 100px;
+    }
+    
+    .MyStackBack {
+        height: 480px;
+        width: 90%;
+        justify-content: space-around;
+    }
+    
+    .MyStackDesign {
+        height: 480px;
+        width: 90%;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .MyStackBoxContent {
+        min-height: 1350px;
+    }
+
+    .MyStackFront {
+        height: 430px;
+    }
+    
+    .MyStackBack {
+        height: 430px;
+    }
+    
+    .MyStackDesign {
+        height: 430px;
+    }
+    
+    .MyStackTitle {
+        height: 85px;
+    }
+    
+    .StackDescription {
+        font-size: 0.9em;
+        height: 50px;
+    }
+    
+    .MyStackStack {
+        height: 65px;
+    }
+    
+    .Stack {
+        height: 30px;
+    }
+    
+    .StackItem {
+        height: 30px;
     }
 }

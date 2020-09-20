@@ -10,10 +10,10 @@
             flex-direction: column;
             position: fixed;
             top: 103px;
-            min-height: 88vh;
+            min-height: 90vh;
             width: 100%;
             font-weight: bold;
-            background: #de9903;
+            background: #de9903f5;
     }
 
     .MobileLinkedIn svg, 

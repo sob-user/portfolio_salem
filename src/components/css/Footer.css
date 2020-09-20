@@ -83,3 +83,23 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 720px) {
+    .FooterBox {
+        min-height: 40vh;
+    }
+
+    .FooterBoxLogo img {
+        max-height: 50px;
+    }
+
+    .FooterBoxCopyright {
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .FooterBox {
+        min-height: 30vh;
+    }
+}
