@@ -66,18 +66,21 @@
 }
 
 .MyWorksLink {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 0.8em;
 }
 
-.MyWorksLink svg {
-    fill: #de9903;
+.MyWorksLink a {
+    text-decoration: none;
+    color: #de9903;
+    font-weight: bold;
 }
 
-.MyWorksLink svg:hover {
+.MyWorksLink a:hover {
     cursor: pointer;
 }
 

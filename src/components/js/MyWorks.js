@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import olderLogo from '../img/logo_older.png'
-import { ReactComponent as Safari } from '../img/safari.svg'
-import { ReactComponent as Bash } from '../img/bash.svg'
 import '../css/MyWorks.css'
 
 export class MyWorks extends Component {
@@ -23,12 +21,12 @@ export class MyWorks extends Component {
                         <div className='MyWorksItemLink'>
                             <div className='MyWorksLink'>
                                 <a href='https://older-stream.com' target='_blank' rel='noopener noreferrer'>
-                                    <Safari /> 
+                                    view project
                                 </a>
                             </div>
                             <div className='MyWorksLink'>
                                 <a href='https://github.com/sob-user/mern_stream_project' target='_blank' rel='noopener noreferrer'>
-                                    <Bash />
+                                    view code
                                 </a>
                             </div>
                         </div>
