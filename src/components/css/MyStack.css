@@ -1,0 +1,170 @@
+.MyStackBox {
+    min-height: 85vh;
+    width: 100%;
+    position: relative;
+    top: -100px;
+    display: flex;
+    justify-content: center;
+}
+
+.MyStackBoxContent {
+    width: 90%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    border: 1px solid whitesmoke;
+    box-shadow: -4px -2px 37px 5px #5e5e5e;
+    background: white;
+}
+
+.MyStackFront {
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-right: 1px solid #5e5e5e38;
+}
+
+.MyStackBack {
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.MyStackDesign {
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-left: 1px solid #5e5e5e38;
+}
+
+.MyStackLogo {
+    height: 60px;
+    width: 60px;
+}
+
+.MyStackLogo svg {
+    fill: #de9903;
+}
+
+.MyStackTitle {
+    height: 160px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.StackTitle {
+    height: 30px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.StackDescription {
+    height: 110px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.MyStackStack {
+    height: 110px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Stack {
+    height: 50px;
+    width: 80%;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #de9903;
+    font-weight: bold;
+}
+
+.StackItem {
+    height: 50px;
+    width: 80%;
+    font-size: 0.8em;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.MyStackTools {
+    height: 150px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.StackTools {
+    height: 30px;
+    width: 80%;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #de9903;
+    font-weight: bold;
+}
+
+.StackItemTools {
+    height: 110px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.StackItemTools ul {
+    height: 100px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.StackItemTools li {
+    width: 80%;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+@media screen and (max-width: 1024px) {
+    .MyStackBox {
+        min-height: 45vh;
+    }
+}

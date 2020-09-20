@@ -1,0 +1,51 @@
+.AboutMeBox {
+    min-height: 94vh;
+    margin-top: 104px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.AboutMeTitle {
+    height: 94px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 2.5em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.AboutMePitch {
+    height: 76px;
+    width: 100%;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AboutMeAvatar svg{
+    height: 20vw;
+    width: 20vw;
+    background: #f5f7f7;
+    opacity: 0.6;
+    border-radius: 50%;
+}
+
+.AboutMeDrawing {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .AboutMeBox {
+        min-height: 64vh;
+    }
+}

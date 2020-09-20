@@ -1,0 +1,85 @@
+.FooterBox {
+    min-height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #de9903;
+}
+
+.FooterBoxEmpty {
+    height: 70px;
+    width: 100%;
+}
+
+.FooterBoxLogo {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FooterBoxLogo img {
+    max-height: 60px;
+    width: auto;
+}
+
+.FooterBoxLinks {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FooterBoxLinks svg {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: white;
+    border-radius: 50%;
+}
+
+.FooterBoxLinks a:nth-child(1) svg:hover {
+    cursor: pointer;
+    background: white;
+    fill: #0773b0;
+}
+
+.FooterBoxLinks a:nth-child(2) svg:hover {
+    cursor: pointer;
+    background: white;
+    fill: black;
+}
+
+.FooterBoxLinks a:nth-child(3) svg:hover {
+    cursor: pointer;
+    background: white;
+    fill: #a03f38;
+}
+
+.FooterBoxCopyright {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+@media screen and (max-width: 1024px) {
+    .FooterBox {
+        min-height: 30vh;
+    }
+
+    .FooterBoxEmpty {
+        display: none;
+    }
+}
