@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import olderLogo from '../img/logo_older.png'
+import parkAssitLogo from '../img/logo_park_assist.png'
 import '../css/MyWorks.css'
 
 export class MyWorks extends Component {
@@ -32,7 +33,22 @@ export class MyWorks extends Component {
                         </div>
                     </div>
                     <div className='MyWorksItem'>
-                        Work in progress
+                        <img src={parkAssitLogo} alt='park assit game logo'></img>
+                            <div className='MyWorksDescription'>
+                            it's a game that simulates the parking assistance system.
+                            </div>
+                            <div className='MyWorksItemLink'>
+                            <div className='MyWorksLink'>
+                                {/* <a href='https://older-stream.com' target='_blank' rel='noopener noreferrer'> */}
+                                in production
+                                {/* </a> */}
+                            </div>
+                            <div className='MyWorksLink'>
+                                <a href='https://github.com/sob-user/park_assist_js' target='_blank' rel='noopener noreferrer'>
+                                    view code
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <div className='MyWorksItem'>
                         Work in progress
