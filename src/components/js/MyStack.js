@@ -35,9 +35,9 @@ export class MyStack extends Component {
                                 <ul>
                                     <li>GitHub</li>
                                     <li>Bash</li>
-                                    <li>Visual Studio</li>
                                     <li>Postman</li>
                                     <li>VPS</li>
+                                    <li>Heroku</li>
                                 </ul>
                             </div>
                         </div>
@@ -57,7 +57,7 @@ export class MyStack extends Component {
                             Languages I speak:
                             </div>
                             <div className='StackItem'>
-                            Vanilla, JQuery, JSX, Typescript, HTML, CSS
+                            Vanilla, JQuery, JSX, HTML, CSS
                             </div>
                         </div>
                         <div className='MyStackTools'>
@@ -67,7 +67,7 @@ export class MyStack extends Component {
                             <div className='StackItemTools'>
                                 <ul>
                                     <li>GitHub</li>
-                                    <li>Heroku</li>
+                                    <li>Netlify</li>
                                     <li>Visual Studio</li>
                                     <li>Font Awesome</li>
                                 </ul>
