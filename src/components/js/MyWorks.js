@@ -21,7 +21,7 @@ export class MyWorks extends Component {
                                 </div>
                         <div className='MyWorksItemLink'>
                             <div className='MyWorksLink'>
-                                <a href='https://older-stream.com' target='_blank' rel='noopener noreferrer'>
+                                <a href='http://older-stream.com' target='_blank' rel='noopener noreferrer'>
                                     view project
                                 </a>
                             </div>
