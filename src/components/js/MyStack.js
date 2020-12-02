@@ -57,7 +57,7 @@ export class MyStack extends Component {
                             Languages I speak:
                             </div>
                             <div className='StackItem'>
-                            Vanilla, JQuery, JSX, HTML, CSS
+                            Javascript, JQuery, React, ReactNative, HTML, CSS
                             </div>
                         </div>
                         <div className='MyStackTools'>
