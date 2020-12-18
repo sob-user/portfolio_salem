@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { ReactComponent as Server } from '../img/server.svg'
 import { ReactComponent as Computer } from '../img/computer.svg'
-import { ReactComponent as Design } from '../img/design.svg'
 import '../css/MyStack.css'
 
 export class MyStack extends Component {
@@ -15,9 +14,6 @@ export class MyStack extends Component {
                         </div>
                         <div className='MyStackTitle'>
                             <div className='StackTitle'>Back-end</div>
-                            <div className='StackDescription'>
-                            I design, code and think small databases, REST APIs, ...
-                            </div>
                         </div>
                         <div className='MyStackStack'>
                             <div className='Stack'>
@@ -48,9 +44,6 @@ export class MyStack extends Component {
                     </div>
                         <div className='MyStackTitle'>
                             <div className='StackTitle'>Front-end</div>
-                            <div className='StackDescription'>
-                            I like to code things from scratch, and enjoy to giving  life my ideas.
-                            </div>
                         </div>
                         <div className='MyStackStack'>
                             <div className='Stack'>
@@ -70,38 +63,6 @@ export class MyStack extends Component {
                                     <li>Netlify</li>
                                     <li>Visual Studio</li>
                                     <li>Font Awesome</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='MyStackDesign'>
-                    <div className='MyStackLogo'>
-                        <Design />
-                    </div>
-                        <div className='MyStackTitle'>
-                            <div className='StackTitle'>Design</div>
-                            <div className='StackDescription'>
-                            I value simple content structure, clean design simple.
-                            </div>
-                        </div>
-                        <div className='MyStackStack'>
-                            <div className='Stack'>
-                            Technical Documentation:
-                            </div>
-                            <div className='StackItem'>
-                                Merise, Graphical Charter, Wireframe, Use Case, Models
-                            </div>
-                        </div>
-                        <div className='MyStackTools'>
-                            <div className='StackTools'>
-                                Design Tools:
-                            </div>
-                            <div className='StackItemTools'>
-                                <ul>
-                                    <li>Figma</li>
-                                    <li>Marvel App</li>
-                                    <li>Baslsamiq</li>
-                                    <li>Keynotes</li>
                                 </ul>
                             </div>
                         </div>

@@ -106,7 +106,6 @@
         flex-wrap: wrap;
     }
 
-    .MyWorksItem:nth-child(3),
     .MyWorksItem:nth-child(4),
     .MyWorksItem:nth-child(5),
     .MyWorksItem:nth-child(6) {
@@ -147,6 +146,10 @@
     
     .MyWorksResume {
         font-size: 1em;
+    }
+
+    .MyWorksDescription {
+        font-size: 0.8em;
     }
 
     .MyWorksItem {

@@ -11,7 +11,7 @@ export class AboutMe extends Component {
                 Full Stack Javascript Developer Junior
                 </article>
                 <article className='AboutMePitch'>
-                I design and code, and I love it.
+                I love coding.
                 </article>
                 <article className='AboutMeAvatar'>
                     <SalemThemeGrey />
