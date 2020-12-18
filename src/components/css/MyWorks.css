@@ -65,6 +65,11 @@
     text-align: center;
 }
 
+.MyWorksDescription a {
+    text-decoration: none;
+    color: #de9903;
+}
+
 .MyWorksLink {
     height: 70px;
     width: 70px;
